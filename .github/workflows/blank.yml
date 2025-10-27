@@ -27,4 +27,4 @@ jobs:
       - name: Deploy files
         run: |
           oc project ecuaalejo2013-dev
-          oc apply -f job.yaml
+          oc apply -f cronjob.yaml
